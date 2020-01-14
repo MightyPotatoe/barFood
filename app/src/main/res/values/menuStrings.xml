@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="recipeStrings">
+        Przepisy
+    </string>
+
+    <string name="ingredientsString">
+        Składniki
+    </string>
+
+    <string name="balanceString">
+        Bilansowanie
+    </string>
+
+</resources>
