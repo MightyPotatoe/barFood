@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dietBalancingTitle">
+        Bilansowanie Diety
+    </string>
+
+    <string name="dietBalancingAgeTitle">
+        W jakim wieku jest twój pies?
+    </string>
+
+    <string name="dietBalancingSzczeniak6miesiecy">
+        Szczeniak\n&lt; 6 miesięcy
+    </string>
+
+    <string name="dietBalancingSzczeniak6to12">
+        Szczeniak\n6-12 miesięcy
+    </string>
+
+    <string name="dietBalancingDoroslyPies">
+        Dorosły\nPies
+    </string>
+
+</resources>

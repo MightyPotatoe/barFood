@@ -1,8 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".dietBalancingActivity">
+    tools:context=".DietBalancingActivity"
+    android:background="@drawable/background">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dietBalancingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_centerHorizontal="true"
+
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/dietBalancingTitle"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+        <View
+            android:id="@+id/dietBalancingSeparator_1"
+            android:layout_below="@+id/dietBalancingTitle"
+            android:layout_marginStart="40sp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:background="@android:color/holo_blue_dark"/>
+
+        <TextView
+            android:id="@+id/dietBalancingAgeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dietBalancingTitle"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="20sp"
+            android:layout_centerHorizontal="true"
+
+            android:text="@string/dietBalancingAgeTitle"
+            android:textColor="#5E218A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dietBalancingAgeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="30sp"
+            android:layout_marginEnd="30sp"
+            android:layout_alignParentStart="true"
+
+            android:layout_below="@+id/dietBalancingAgeTitle"
+            android:background="@drawable/rectangle_shape"
+            android:textStyle="bold"
+            android:text="@string/dietBalancingSzczeniak6miesiecy"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+        <SeekBar
+            android:id="@+id/dietBalancingAgeSeekBar"
+            style="@android:style/Widget.SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/dietBalancingAgeTextView"
+            android:layout_marginTop="10sp"
+            android:max="2"
+            android:progress="1"
+            android:progressTint="#621591"
+            android:thumb="@drawable/paw_icon" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

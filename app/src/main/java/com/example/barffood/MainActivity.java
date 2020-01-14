@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onBalanceButtonClicked(View view) {
-        //Intent intent = new Intent(this, ChooseClassIntroActivity.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, DietBalancingActivity.class);
+        startActivity(intent);
     }
 }
